@@ -1,0 +1,50 @@
+[debug] [2024-04-03T09:08:23.195Z] ----------------------------------------------------------------------
+[debug] [2024-04-03T09:08:23.197Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\DISHI\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-04-03T09:08:23.197Z] CLI Version:   13.4.0
+[debug] [2024-04-03T09:08:23.198Z] Platform:      win32
+[debug] [2024-04-03T09:08:23.198Z] Node Version:  v18.17.1
+[debug] [2024-04-03T09:08:23.204Z] Time:          Wed Apr 03 2024 14:38:23 GMT+0530 (India Standard Time)
+[debug] [2024-04-03T09:08:23.205Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-04-03T09:08:23.209Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[debug] [2024-04-03T09:08:23.259Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-04-03T09:08:23.259Z] > authorizing via signed-in user (dishipandey20@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\web\BharatIntern\weather
+
+[debug] [2024-04-03T09:08:24.545Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2024-04-03T09:08:24.546Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-04-03T09:08:47.526Z] > refreshing access token with scopes: []
+[debug] [2024-04-03T09:08:47.528Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2024-04-03T09:08:47.528Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-04-03T09:08:47.900Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2024-04-03T09:08:47.900Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2024-04-03T09:08:47.920Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2024-04-03T09:08:49.997Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2024-04-03T09:08:49.997Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project weathersite-9742e (weathersite) 
+[info] 
+=== Hosting Setup
+[debug] [2024-04-03T09:08:53.058Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/weathersite-9742e [none]
+[debug] [2024-04-03T09:08:56.464Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/weathersite-9742e 200
+[debug] [2024-04-03T09:08:56.464Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/weathersite-9742e {"projectId":"weathersite-9742e","projectNumber":"1025301922384","displayName":"weathersite","name":"projects/weathersite-9742e","resources":{"hostingSite":"weathersite-9742e"},"state":"ACTIVE","etag":"1_7fa1d9ba-4e1a-4901-afdb-4856ef80f92f"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
